@@ -1,0 +1,10 @@
+add_executable(pattern_adapter
+    main.cpp
+    TeslaCar.h
+    TeslaCar.cpp
+    EuropeanCar.h
+    GasStation.h
+    GasStation.cpp
+    AmericanCarAdapter.h
+    AmericanCarAdapter.cpp
+)
