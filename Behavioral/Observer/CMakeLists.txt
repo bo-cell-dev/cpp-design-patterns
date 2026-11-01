@@ -1,0 +1,10 @@
+add_executable(pattern_observer
+    main.cpp
+    EventManager.h
+    EventManager.cpp
+    EventListeners.h   
+    SmsAlertListener.h  
+    SmsAlertListener.cpp 
+    LoggingListener.h   
+    LoggingListener.cpp
+)
