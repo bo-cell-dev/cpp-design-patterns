@@ -6,6 +6,6 @@
 #add_subdirectory(Memento)
 add_subdirectory(Observer)
 #add_subdirectory(State)
-#add_subdirectory(Strategy)
+add_subdirectory(Strategy)
 #add_subdirectory("Template Method")
 #add_subdirectory(Visitor)

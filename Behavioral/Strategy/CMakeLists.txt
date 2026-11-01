@@ -1,0 +1,12 @@
+add_executable(pattern_strategy
+    main.cpp
+    AttackStrategy.h 
+    SwordAttack.h 
+    SwordAttack.cpp
+    BowAttack.h
+    BowAttack.cpp
+    FistAttack.h
+    FistAttack.cpp
+    Hero.h
+    Hero.cpp
+)
