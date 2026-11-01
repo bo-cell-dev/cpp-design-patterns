@@ -1,5 +1,4 @@
 #include "SmsAlertListener.h"
-#include "EventListeners.h"
 #include "LoggingListener.h"
 #include "EventManager.h"
 
@@ -14,5 +13,9 @@ int main() {
 	em->notify(filename);
 	em->unsubscribe(smsal);
 	em->notify("Hello world!");
+
+	delete ll;
+	delete smsal;
+	delete em;
 	return 0;
 }
