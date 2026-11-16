@@ -1,4 +1,4 @@
-#add_subdirectory("Abstract Factory")
+add_subdirectory("Abstract Factory")
 #add_subdirectory(Builder)
 #add_subdirectory("Factory Method")
 #add_subdirectory(Prototype)
